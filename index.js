@@ -20,8 +20,10 @@ function destructivelyRemoveFirstKitten() {
 
 function appendKitten(name) {
   [...kittens,'Broom']
+  kittens
 }
 
 function prependKitten(name) {
-  ['']
+  ['Arnold',...kittens]
+  kittens
 }
